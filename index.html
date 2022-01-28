@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaomi Store</title>
+
+    <!--============ BOX ICON ============-->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--============ CSS ============-->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+   
+    <!--============ CSS SLICK ============-->
+    <link rel="stylesheet" type="text/css" href="/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="/css/slick-theme.css">
+
+    <!--============ SCROLL TOP ============-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bxs-chevron-up scrolltop_icon'></i>
+    </a>
+         
+    <!--============ HEADER ============-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <a href="#" class="nav_logo">Xiaomi Store</a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active-link">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#services" class="nav_link">Quality</a></li>
+                    <li class="nav_item"><a href="#products" class="nav_link">Products</a></li>
+                    <li class="nav_item"><a href="#color" class="nav_link">Color Product</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+               
+                    <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav_shop" id="nav-shop">
+                <i class='bx bx-shopping-bag'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--============ HOME ============-->
+        <section class="home" id="home">
+            <div class="slideshow-container">
+                
+                <div class="mySlides fade">
+                    <div class="home_container bd-container bd-grid">
+                        <div class="home_data">
+                            <h1 class="home_title">Xiaomi 10 Ultra</h1>
+                            <h2 class="home_subtitle">Smartphone Desain terbaik<br> Pada tahun 2021</h2>
+                            <a href="#" class="button">Explore Now</a>
+                        </div>
+                        <img src="/img/home1.png" alt="" class="home_img">
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="home_container bd-container bd-grid">
+                        <div class="home_data">
+                            <h1 class="home_title">Xiaomi Note 9</h1>
+                            <h2 class="home_subtitle">Prosesor yang unggul, performa yang kuat</h2>
+                            <a href="#" class="button">Explore Now</a>
+                        </div>
+                        <img src="/img/home2.png" alt="" class="home_img">
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="home_container bd-container bd-grid">
+                        <div class="home_data">
+                            <h1 class="home_title">Xiaomi 11 Lite</h1>
+                            <h2 class="home_subtitle">Desain ringan memesona, Ramping dan manis</h2>
+                            <a href="#" class="button">Explore Now</a>
+                        </div>
+                        <img src="/img/home3.png" alt="" class="home_img">
+                    </div>
+                </div>
+            </div>
+            <br>
+        </section>
+         <!-- Next and Previous Button -->
+         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!-- The dots/circle -->
+        <div style="text-align: center;">
+            <span class="dots" onclick="currentSlide(1)"></span>
+            <span class="dots" onclick="currentSlide(2)"></span>
+            <span class="dots" onclick="currentSlide(3)"></span>
+            <span class="dot"></span>
+        </div>
+
+        <!--============ ABOUT ============-->
+        <section class="about section bd-container" id="about">
+            <div class="about_container bd-grid">
+                <div class="about_data">
+                    <span class="section-subtitle about_initial">About us</span>
+                    <h2 class="section-title about_initial">MEMBUAT TEKNOLOGI BERKUALITAS <br> BISA DIAKSES OLEH SIAPA SAJA.</h2>
+                    <p class="about_description">Xiaomi didirikan pada tahun 2010 oleh pengusaha multi bisnis, Lei Jun, berdasarkan visi “inovasi untuk semua orang”. Kami percaya bahwa produk
+                        berkualitas tinggi yang dibangun dengan teknologi canggih harus dapat diakses oleh semua orang. Kami menciptakan perangkat keras,
+                        perangkat lunak, dan layanan internet yang luar biasa untuk dan dengan bantuan penggemar Mi kami. Dengan kehadiran di lebih dari 30 negara dan kawasan, Xiaomi memperluas rekam jejaknya
+                        di seluruh dunia menjadi merek global.</p>
+                    <a href="#" class="button">Explore history</a>
+                </div>
+
+                <img src="/img/about.jpg" alt="" class="about_img">
+            </div>
+        </section>
+
+        <!--============ SERVICE ============-->
+        <section class="services section bd-container" id="services">
+            <span class="section-subtitle">Offering</span>
+            <h2 class="section-title">Our amazing product</h2>
+            <div class="services_container bd-grid">
+                <div class="services_content">
+                    <img src="/img/lcd.jpg" alt="" class="services_img">
+                    <h3 class="services_title">True Display</h3>
+                    <p class="services_description">Sensor suhu warna secara akurat menangkap suhu warna cahaya di sekitarnya. Layar secara otomatis menyesuaikan ke warna yang optimal, memberikan pengalaman senyaman mungkin bagi mata Anda.</p>
+                </div>
+
+                <div class="services_content">
+                    <img src="/img/chipset.jpg" alt="" class="services_img">
+                    <h3 class="services_title">Kekuatan Yang Anda Butuhkan</h3>
+                    <p class="services_description">Siap menghadapi tantangan apa pun dengan kecepatan penuh. Qualcomm®️ Snapdragon ™ 732G 8GB LPDDR4X Terbesar yang pernah ada UFS 2.2 HINGGA 128GB Terbesar yang pernah ada.</p>
+                </div>
+
+                <div class="services_content">
+                    <img src="/img/battery.jpg" alt="" class="services_img">
+                    <h3 class="services_title">Pengisian Daya Turbo </h3>
+                    <p class="services_description">Baterai besar dengan bodi ramping dan ringan 4600mAh, menyala sepanjang hari. Hanya 45menit untuk mencapai 100% dengan pengisian daya turbo berkabel 55W*</p>
+                </div>
+            </div>
+        </section>
+
+        <!--============ PRODUCT ============-->
+        <section class="product section bd-container" id="products">
+            <span class="section-subtitle">Special</span>
+            <h2 class="section-title">PRODUCTS REKOMENDASI</h2>
+
+            <div class="products_container bd-grid logo-slider slick_two">
+                <div class="products_content">
+                    <img src="/img/11 lite/11 lite 1.jpg" alt="" class="products_img">
+                    <h3 class="products_name">Xiaomi 11 Lite</h3>
+                    <span class="products_detail">6+64 GB</span> <br>
+                    <span class="products_price">Rp. 3.599.000</span>
+                    <a href="#" class="button products_button_detail">Detail Product</a>
+                    <a href="#" class="button products_button"><i class='bx bx-cart'></i></a>
+                </div>
+    
+                <div class="products_content">
+                    <img src="/img/note 9/Note 9 1.png" alt="" class="products_img">
+                    <h3 class="products_name">Xiaomi Note 9 Pro</h3>
+                    <span class="products_detail">8+128 GB</span> <br>
+                    <span class="products_price">Rp. 3.499.000</span>
+                    <a href="#" class="button products_button_detail">Detail Product</a>
+                    <a href="#" class="button products_button"><i class='bx bx-cart'></i></a>
+                </div>
+    
+                <div class="products_content">
+                    <img src="/img/note 10/note 10 1.jfif" alt="" class="products_img">
+                    <h3 class="products_name">Xiaomi Note 10 Pro</h3>
+                    <span class="products_detail">6+128 GB</span> <br>
+                    <span class="products_price">Rp. 3.699.000</span>
+                    <a href="#" class="button products_button_detail">Detail Product</a>
+                    <a href="#" class="button products_button"><i class='bx bx-cart'></i></a>
+                </div>
+    
+                <div class="products_content">
+                    <img src="/img/poco f3/poco f3 1.jpg" alt="" class="products_img">
+                    <h3 class="products_name">Poco F3 5G</h3>
+                    <span class="products_detail">6+128 GB</span> <br>
+                    <span class="products_price">Rp. 4.899.000</span>
+                    <a href="#" class="button products_button_detail">Detail Product</a>
+                    <a href="#" class="button products_button"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!--============ COLOR PRODUCT ============-->
+        <section class="color section bd-container" id="color">
+            <div class="color_container bd-grid">
+                <div class="color_data">
+                    <span class="section-subtitle color_initial">Warna</span>
+                    <h2 class="section-title color_initial">Find Your Color</h2>
+                    <p class="color_description">Silahkan luangkan waktu Anda sejenak untuk mengamati color cart kami. <br>
+                    Ini akan membantu anda mengetahui warna yang diinginkan.</p>
+                </div>
+                <img src="/img/warna.jpg" alt="" class="color_img">
+            </div>
+        </section>
+
+        <!--============ CONTACT US ============-->
+        <section class="contact section bd-container" id="contact">
+            <div class="contact_container bd-grid">
+                <div class="contact_data">
+                    <span class="section-subtitle contact_initial">Let's Talk</span>
+                    <h2 class="section-subtitle contact_initial">Contact Us</h2>
+                    <p class="contact_description">Jika kamu ingin membeli smartphone Xiaomi di official kami, hubungi kami dan kami akan segera melayani anda dengan pelayanan 24/7</p>
+                </div>
+                <div class="contact_button">
+                    <a href="#" class="button">Contact us now</a>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!--============ FOOTER ============-->
+    <footer class="footer section bd-container">
+        <div class="footer_container bd-grid">
+            <div class="footer_content">
+                <a href="#" class="footer_logo">Xiaomi</a>
+                <span class="footer_description">Store</span>
+                <div>
+                    <a href="#" class="footer_social"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="footer_social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="footer_social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div> 
+
+            <div class="footer_content">
+                <h3 class="footer_title">Services</h3>
+                <ul>
+                    <li><a href="#" class="footer_link">Shipping and Return</a></li>
+                    <li><a href="#" class="footer_link">Mesurement Guide</a></li>
+                    <li><a href="#" class="footer_link">Color product</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_content">
+                <h3 class="footer_title">Information</h3>
+                <ul>
+                    <li><a href="#" class="footer_link">Event</a></li>
+                    <li><a href="#" class="footer_link">Contact us</a></li>
+                    <li><a href="#" class="footer_link">Privacy policy</a></li>
+                    <li><a href="#" class="footer_link">Term of services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_content">
+                <h3 class="footer_title">Adress</h3>
+                <ul>
+                    <li>Jl. Gandaria City Mall</li>
+                    <li>Jakarta 4071 - Indonesia</li>
+                    <li>Phone : +622-22-1343547657</li>
+                    <li>Whatsapp : 081949802696</li>
+                </ul>
+            </div>
+        </div>
+        <p class="foter_copy">&#169;Official Xiaomi 2021.</p>
+    </footer>
+
+    <!--============ SCROL REVEAL (https://scrollrevealjs.org/) ============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!--============ MAIN JS ============-->
+    <script src="/js/main.js"></script>
+
+    <!--============ JS SLICK ============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/js/slick.js"></script>
+    <script src="/js/slick.min.js"></script>
+
+    <script>
+        $('.slick_two').slick({
+            dots: true,
+            arrows: true,
+            autoplay: true,
+            infinite: true,
+            speed: 2000,
+            autoplaySpeed: 2000,
+            
+            responsive: [
+                {
+                    breakpoint: 5000,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 768, 
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
+
+</body>
+</html>
